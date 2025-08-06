@@ -5,7 +5,7 @@
         static Nullable<int>[]? remainingSteps;
         static void Main(string[] args)
         {
-            int[] steps = [0, 1, 2, 3, 4, 5, 6, 7];
+            int[] steps = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8];
             if (args.Length > 0)
             {
                 steps = new int[args.Length];
